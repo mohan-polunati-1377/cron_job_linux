@@ -1,4 +1,4 @@
-===== COMMAND HISTORY on Fri Aug  8 13:20:01 IST 2025 =====
+===== COMMAND HISTORY on Fri Aug  8 13:25:01 IST 2025 =====
 exit
 bash
 ls 
@@ -281,14 +281,15 @@ cat file1.txt
 cat file4.txt
 sudo su
 
-===== CPU & RAM USAGE on Fri Aug  8 13:20:01 IST 2025 =====
-top - 13:20:01 up 58 min,  1 user,  load average: 0.00, 0.00, 0.00
+===== CPU & RAM USAGE on Fri Aug  8 13:25:01 IST 2025 =====
+top - 13:25:01 up  1:03,  1 user,  load average: 0.01, 0.01, 0.00
 Tasks:  39 total,   1 running,  38 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-MiB Mem :   7812.2 total,   7214.6 free,    351.3 used,    246.3 buff/cache
-MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7309.8 avail Mem 
+MiB Mem :   7812.2 total,   7215.6 free,    350.1 used,    246.5 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7311.0 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1122 sreekar+  20   0   10900   3712   3200 R   6.7   0.0   0:00.01 top
       1 root      20   0  170016  11076   8388 S   0.0   0.1   0:00.56 systemd
       2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.00 init-sy+
       6 root      20   0    3088   1968   1792 S   0.0   0.0   0:00.01 init
@@ -301,4 +302,3 @@ MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7309.8 avail Mem
     281 root      20   0    3832   1280   1152 S   0.0   0.0   0:00.00 snapfuse
     283 root      20   0    3516    768    640 S   0.0   0.0   0:00.00 snapfuse
     285 root      20   0    3764   1296   1152 S   0.0   0.0   0:03.81 snapfuse
-    292 systemd+  20   0   24764  12672   8576 S   0.0   0.2   0:00.07 systemd+
