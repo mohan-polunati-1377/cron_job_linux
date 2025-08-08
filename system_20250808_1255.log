@@ -1,0 +1,21 @@
+===== CPU & RAM Usage on Fri Aug  8 12:55:02 IST 2025 =====
+top - 12:55:02 up 33 min,  1 user,  load average: 0.00, 0.01, 0.00
+Tasks:  41 total,   1 running,  40 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7812.2 total,   7220.5 free,    353.1 used,    238.6 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7308.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  170016  11076   8388 S   0.0   0.1   0:00.53 systemd
+      2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.00 init-sy+
+      6 root      20   0    3088   1968   1792 S   0.0   0.0   0:00.01 init
+     61 root      19  -1   52112  14336  13568 S   0.0   0.2   0:00.19 systemd+
+     82 root      20   0   23328   5760   3968 S   0.0   0.1   0:00.23 systemd+
+     90 systemd+  20   0   19084   7424   6656 S   0.0   0.1   0:00.04 systemd+
+    274 root      20   0    3516    768    640 S   0.0   0.0   0:00.00 snapfuse
+    275 root      20   0    3768   1772   1280 S   0.0   0.0   0:00.21 snapfuse
+    276 root      20   0    3516    768    640 S   0.0   0.0   0:00.00 snapfuse
+    281 root      20   0    3832   1280   1152 S   0.0   0.0   0:00.00 snapfuse
+    283 root      20   0    3516    768    640 S   0.0   0.0   0:00.00 snapfuse
+    285 root      20   0    3764   1296   1152 S   0.0   0.0   0:03.81 snapfuse
+    292 systemd+  20   0   24764  12672   8576 S   0.0   0.2   0:00.07 systemd+
