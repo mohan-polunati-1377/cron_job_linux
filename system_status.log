@@ -302,3 +302,307 @@ MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7313.5 avail Mem
     283 root      20   0    3516    768    640 S   0.0   0.0   0:00.00 snapfuse
     285 root      20   0    3764   1296   1152 S   0.0   0.0   0:03.81 snapfuse
     292 systemd+  20   0   24764  12672   8576 S   0.0   0.2   0:00.08 systemd+
+===== COMMAND HISTORY on Fri Aug  8 14:10:01 IST 2025 =====
+exit
+bash
+ls 
+ls -
+l
+date
+whoami
+echo "hello world"
+pwd
+cd root
+cd home
+cd workbench
+cd C:\Users\mohansreekar.p\Desktop\Workbench-Build127-with-optional-libs
+pwd
+ls -a
+ls -la
+ls
+ls -r
+touch example
+ls
+ls -la
+touch example
+ls -la
+file example
+cat example
+clear
+history
+mkdir -p books/witcher
+ls
+ls -la
+clear
+rm -r books
+ls -la
+help echo
+clear
+whatis less
+whatis more
+alias a='ls -la'
+a
+unalias a
+a
+exit
+ssh ec2-user@13.61.141.63
+ssh -i C:\Users\mohansreekar.p\Downloads\SREEKAR09.pem ec2-user@13.61.141.63
+chmod 400 C:\Users\mohansreekar.p\Downloads\SREEKAR09.pem
+chdir Users
+cd Users
+ls -la
+ssh -i C:\Users\mohansreekar.p\Downloads\SREEKAR09.pem ubuntu@13.61.141.63
+chmod 400 C:\Users\mohansreekar.p\Downloads\SREEKAR09.pem
+chmod 400 C:/Users/mohansreekar.p/Downloads/SREEKAR09.pem
+chmod 400 /C/Users/mohansreekar.p/Downloads/SREEKAR09.pem
+chmod 400 /c/users/mohansreekar.p/downloads/SREEKAR09.pem
+C:\Users\mohansreekar.p\Downloads
+chmod 400 C:\Users\mohansreekar.p\Downloads
+/c/Users/mohansreekar.p/Downloads/SREEKAR09.pem
+chmod /c/Users/mohansreekar.p/Downloads/SREEKAR09.pem
+clear
+help chmod
+chmod --help
+ssh --help
+exit
+history
+clear
+ls -la
+cd ..
+ls -la
+touch example
+touch example.txt
+touch example
+cd sreekar_mohan
+ls -la
+clear
+echo "hello world" >> example
+ls -la
+> exapmle
+cat example
+cat < example > banana.txt
+cat banana.txt
+ls -ls/etc
+ls -ls /etc
+ls -ls /etc |less
+echo user
+echo $user
+echo $ home
+echo $ USER
+sample.txt
+cat sample.txt
+touch sample.txt
+echo "the" >> sample.txt
+echo "big" >> sample.txt
+echo "bad" >> sample.txt
+cat sample.txt
+paste sample.txt
+paste -s sample.txt
+paste -d ' ' -s sample.txt
+clear
+cat "hello" >> file1.txt
+touch file1.txt
+touch file2.txt
+cat "hello" >> file1.txt
+echo "hello" >> file1.txt
+echo "world" >> file3.txt
+join file1.txt file2.txt
+echo file1
+cat file1.txt
+join file1.txt file3.txt
+cat file1.txt
+cat file3.txt
+join file1.txt file3.txt
+cat file1.txt
+tr a-z A-Z file1.txt
+tr a-z A-Z
+sudo
+sudo --help
+sudo -u
+clear
+wc -l example.txt
+wc -l example
+wc example
+cd ~
+cd ..
+ls 
+ls -la
+sudo -v
+sudo -u
+sudo chage -d 0 sreekar_mohan
+sudo -v
+sudo -u
+clear
+sudo ls
+sudo ls-la
+sudo ls -la
+cp /mnt/c/Users/mohansreekar.p/Downloads/myfile.txt ~/
+cp /mnt/c/Users/mohansreekar.p/Downloads/myfile ~/
+grep -i '.pem$'
+cd Downloads/
+ls -l
+cp SREEKAR09.pem ~/
+cd
+ls -l
+exit
+sudo chmod 400 SREEKAR009.pem 
+ls -la
+ssh -i SREEKAR09.pem ec2-user@ip-172-31-30-228
+ssh -i SREEKAR09.pem ec2-user@13.53.198.74
+sudo chmod 400 SREEKAR09.pem 
+ssh -i SREEKAR09.pem ec2-user@13.53.198.74
+sudo apt-get install autossh
+cd ~/
+sudo apt-get install autossh
+sudo apt-get update
+sudo apt-get install autossh
+clear
+ssh-keygen -t rsa -b 4096
+ssh-copy-id ec2-user@13.53.198.74 
+ls -la
+cd ssh
+ssh-copy-id /home/sreekar_mohan/.ssh/id_rsa.pub ec2-user@13.53.198.74 
+ssh-copy-id ~/.ssh/id_rsa.pub ec2-user@13.53.198.74 
+ssh -i ~/.ssh/id_rsa.pub ec2-user@13.53.198.74
+ssh -i ~/.ssh/yes.pub ec2-user@13.53.198.74
+ssh -i ~/.ssh/yes ec2-user@13.53.198.74
+ssh -i ~/yes ec2-user@13.53.198.74
+sudo chmod 755 yes
+ssh -i ~/yes ec2-user@13.53.198.74
+ls -l ~/yes
+cat ~/yes.pub
+ssh -i SREEKAR09.pem ec2-user@13.53.198.74
+clear
+ssh -i ~/yes ec2-user@13.53.198.74
+chmod 400 yes
+ssh -i ~/yes ec2-user@13.53.198.74
+clear
+ssh -i ~/yes ec2-user@13.53.198.74
+clear
+ssh -i ~/yes ec2-user@13.53.198.74
+ssh ec2-user@13.53.198.74
+
+cd ~/.ssh
+ls -l
+cd ~/yes
+c
+cd
+cd ~/yes
+cp yes ~/.ssh
+cd ~/.ssh
+ls -l
+cd
+ssh ec2-user@13.53.198.74
+cd ~/.ssh
+
+cd
+cp yes.pub ~/.ssh
+ssh ec2-user@13.53.198.74
+cd ~/.ssh
+mv yes id_rsa
+ls -l
+cd
+ssh ec2-user@13.53.198.74
+vi shiftline.sh
+vi
+cat shiftline.sh
+nano shiftline.sh
+ls -la
+sudo chmod 700 shiftline.sh 
+sudo chmod 700 shiftline.sh.save 
+./shifline.sh.save file4.txt file5.txt 3
+nano shiftline.sh
+nano shiftline.sh.save
+ssh ec2-user@13.53.198.74
+ls -la
+nano shiftline.sh.save
+./shifline.sh.save file2.txt
+bash shiftline.sh.save
+clear
+ls -la
+sudo chmod 700 shiftline.sh.save
+bash shiftline.sh.save
+./shifline.sh.save file2.txt
+nano shiftline.sh.save
+ls -la
+bash shiftline.sh
+./shiftline.sh file1.txt
+sudo chmod 700 shiftline.sh 
+./shiftline.sh file1.txt
+nano shiftline.sh.save
+nano shiftline.sh
+./shiftline.sh file2.txt
+nano shiftline.sh
+./shiftline.sh file2.txt file4.txt
+cat file4.txt
+nano shiftline.sh
+cat file1.txt
+wc file1.txt
+echo "world" >> file1.txt
+echo "my" >> file1.txt
+echo "name" >> file1.txt
+echo "is" >> file1.txt
+echo "Mohan" >> file1.txt
+wc -l file1.txt
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt
+clear
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt 9
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt 9
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt 9
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt 9
+nano shiftline.sh
+./shiftline.sh file1.txt file4.txt 9
+cat file4.txt
+cat file1.txt
+./shiftline.sh file1.txt file4.txt 1
+cat file4.txt
+ls -la
+nano shiftline.sh
+ps aux
+clear
+ps -l
+ps aux
+history
+nano shiftline.sh
+clear
+cat file1.txt
+./shiftline.sh file1.txt file4.txt 3
+cat file4.txt
+sudo su
+
+===== CPU & RAM USAGE on Fri Aug  8 14:10:01 IST 2025 =====
+top - 14:10:01 up  1:48,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  39 total,   1 running,  38 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.8 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7812.2 total,   7210.4 free,    354.6 used,    247.2 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7306.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  170016  11076   8388 S   0.0   0.1   0:00.60 systemd
+      2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.00 init-sy+
+      6 root      20   0    3088   1968   1792 S   0.0   0.0   0:00.01 init
+     61 root      19  -1   52112  14464  13696 S   0.0   0.2   0:00.27 systemd+
+     82 root      20   0   23328   5760   3968 S   0.0   0.1   0:00.31 systemd+
+     90 systemd+  20   0   19084   7424   6656 S   0.0   0.1   0:00.06 systemd+
+    274 root      20   0    3516    768    640 S   0.0   0.0   0:00.00 snapfuse
+    275 root      20   0    3768   1772   1280 S   0.0   0.0   0:00.21 snapfuse
+    276 root      20   0    3516    768    640 S   0.0   0.0   0:00.00 snapfuse
+    281 root      20   0    3832   1280   1152 S   0.0   0.0   0:00.00 snapfuse
+    283 root      20   0    3516    768    640 S   0.0   0.0   0:00.00 snapfuse
+    285 root      20   0    3764   1296   1152 S   0.0   0.0   0:03.81 snapfuse
+    292 systemd+  20   0   24764  12672   8576 S   0.0   0.2   0:00.08 systemd+
