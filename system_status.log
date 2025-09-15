@@ -59194,3 +59194,800 @@ MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7270.2 avail Mem
     292 root      20   0  151256   1280   1152 S   0.0   0.0   0:00.00 snapfuse
     298 root      20   0   85588   1280   1152 S   0.0   0.0   0:00.00 snapfuse
     304 root      20   0  667520  14176   1408 S   0.0   0.2   0:03.04 snapfuse
+===== COMMAND HISTORY on Mon Sep 15 15:00:01 IST 2025 =====
+    1  exit
+    2  bash
+    3  ls 
+    4  ls -
+    5  l
+    6  date
+    7  whoami
+    8  echo "hello world"
+    9  pwd
+   10  cd root
+   11  cd home
+   12  cd workbench
+   13  cd C:\Users\mohansreekar.p\Desktop\Workbench-Build127-with-optional-libs
+   14  pwd
+   15  ls -a
+   16  ls -la
+   17  ls
+   18  ls -r
+   19  touch example
+   20  ls
+   21  ls -la
+   22  touch example
+   23  ls -la
+   24  file example
+   25  cat example
+   26  clear
+   27  history
+   28  mkdir -p books/witcher
+   29  ls
+   30  ls -la
+   31  clear
+   32  rm -r books
+   33  ls -la
+   34  help echo
+   35  clear
+   36  whatis less
+   37  whatis more
+   38  alias a='ls -la'
+   39  a
+   40  unalias a
+   41  a
+   42  exit
+   43  ssh ec2-user@13.61.141.63
+   44  ssh -i C:\Users\mohansreekar.p\Downloads\SREEKAR09.pem ec2-user@13.61.141.63
+   45  chmod 400 C:\Users\mohansreekar.p\Downloads\SREEKAR09.pem
+   46  chdir Users
+   47  cd Users
+   48  ls -la
+   49  ssh -i C:\Users\mohansreekar.p\Downloads\SREEKAR09.pem ubuntu@13.61.141.63
+   50  chmod 400 C:\Users\mohansreekar.p\Downloads\SREEKAR09.pem
+   51  chmod 400 C:/Users/mohansreekar.p/Downloads/SREEKAR09.pem
+   52  chmod 400 /C/Users/mohansreekar.p/Downloads/SREEKAR09.pem
+   53  chmod 400 /c/users/mohansreekar.p/downloads/SREEKAR09.pem
+   54  C:\Users\mohansreekar.p\Downloads
+   55  chmod 400 C:\Users\mohansreekar.p\Downloads
+   56  /c/Users/mohansreekar.p/Downloads/SREEKAR09.pem
+   57  chmod /c/Users/mohansreekar.p/Downloads/SREEKAR09.pem
+   58  clear
+   59  help chmod
+   60  chmod --help
+   61  ssh --help
+   62  exit
+   63  history
+   64  clear
+   65  ls -la
+   66  cd ..
+   67  ls -la
+   68  touch example
+   69  touch example.txt
+   70  touch example
+   71  cd sreekar_mohan
+   72  ls -la
+   73  clear
+   74  echo "hello world" >> example
+   75  ls -la
+   76  > exapmle
+   77  cat example
+   78  cat < example > banana.txt
+   79  cat banana.txt
+   80  ls -ls/etc
+   81  ls -ls /etc
+   82  ls -ls /etc |less
+   83  echo user
+   84  echo $user
+   85  echo $ home
+   86  echo $ USER
+   87  sample.txt
+   88  cat sample.txt
+   89  touch sample.txt
+   90  echo "the" >> sample.txt
+   91  echo "big" >> sample.txt
+   92  echo "bad" >> sample.txt
+   93  cat sample.txt
+   94  paste sample.txt
+   95  paste -s sample.txt
+   96  paste -d ' ' -s sample.txt
+   97  clear
+   98  cat "hello" >> file1.txt
+   99  touch file1.txt
+  100  touch file2.txt
+  101  cat "hello" >> file1.txt
+  102  echo "hello" >> file1.txt
+  103  echo "world" >> file3.txt
+  104  join file1.txt file2.txt
+  105  echo file1
+  106  cat file1.txt
+  107  join file1.txt file3.txt
+  108  cat file1.txt
+  109  cat file3.txt
+  110  join file1.txt file3.txt
+  111  cat file1.txt
+  112  tr a-z A-Z file1.txt
+  113  tr a-z A-Z
+  114  sudo
+  115  sudo --help
+  116  sudo -u
+  117  clear
+  118  wc -l example.txt
+  119  wc -l example
+  120  wc example
+  121  cd ~
+  122  cd ..
+  123  ls 
+  124  ls -la
+  125  sudo -v
+  126  sudo -u
+  127  sudo chage -d 0 sreekar_mohan
+  128  sudo -v
+  129  sudo -u
+  130  clear
+  131  sudo ls
+  132  sudo ls-la
+  133  sudo ls -la
+  134  cp /mnt/c/Users/mohansreekar.p/Downloads/myfile.txt ~/
+  135  cp /mnt/c/Users/mohansreekar.p/Downloads/myfile ~/
+  136  grep -i '.pem$'
+  137  cd Downloads/
+  138  ls -l
+  139  cp SREEKAR09.pem ~/
+  140  cd
+  141  ls -l
+  142  exit
+  143  sudo chmod 400 SREEKAR009.pem 
+  144  ls -la
+  145  ssh -i SREEKAR09.pem ec2-user@ip-172-31-30-228
+  146  ssh -i SREEKAR09.pem ec2-user@13.53.198.74
+  147  sudo chmod 400 SREEKAR09.pem 
+  148  ssh -i SREEKAR09.pem ec2-user@13.53.198.74
+  149  sudo apt-get install autossh
+  150  cd ~/
+  151  sudo apt-get install autossh
+  152  sudo apt-get update
+  153  sudo apt-get install autossh
+  154  clear
+  155  ssh-keygen -t rsa -b 4096
+  156  ssh-copy-id ec2-user@13.53.198.74 
+  157  ls -la
+  158  cd ssh
+  159  ssh-copy-id /home/sreekar_mohan/.ssh/id_rsa.pub ec2-user@13.53.198.74 
+  160  ssh-copy-id ~/.ssh/id_rsa.pub ec2-user@13.53.198.74 
+  161  ssh -i ~/.ssh/id_rsa.pub ec2-user@13.53.198.74
+  162  ssh -i ~/.ssh/yes.pub ec2-user@13.53.198.74
+  163  ssh -i ~/.ssh/yes ec2-user@13.53.198.74
+  164  ssh -i ~/yes ec2-user@13.53.198.74
+  165  sudo chmod 755 yes
+  166  ssh -i ~/yes ec2-user@13.53.198.74
+  167  ls -l ~/yes
+  168  cat ~/yes.pub
+  169  ssh -i SREEKAR09.pem ec2-user@13.53.198.74
+  170  clear
+  171  ssh -i ~/yes ec2-user@13.53.198.74
+  172  chmod 400 yes
+  173  ssh -i ~/yes ec2-user@13.53.198.74
+  174  clear
+  175  ssh -i ~/yes ec2-user@13.53.198.74
+  176  clear
+  177  ssh -i ~/yes ec2-user@13.53.198.74
+  178  ssh ec2-user@13.53.198.74
+  179  cd ~/.ssh
+  180  ls -l
+  181  cd ~/yes
+  182  c
+  183  cd
+  184  cd ~/yes
+  185  cp yes ~/.ssh
+  186  cd ~/.ssh
+  187  ls -l
+  188  cd
+  189  ssh ec2-user@13.53.198.74
+  190  cd ~/.ssh
+  191  cd
+  192  cp yes.pub ~/.ssh
+  193  ssh ec2-user@13.53.198.74
+  194  cd ~/.ssh
+  195  mv yes id_rsa
+  196  ls -l
+  197  cd
+  198  ssh ec2-user@13.53.198.74
+  199  vi shiftline.sh
+  200  vi
+  201  cat shiftline.sh
+  202  nano shiftline.sh
+  203  ls -la
+  204  sudo chmod 700 shiftline.sh 
+  205  sudo chmod 700 shiftline.sh.save 
+  206  ./shifline.sh.save file4.txt file5.txt 3
+  207  nano shiftline.sh
+  208  nano shiftline.sh.save
+  209  ssh ec2-user@13.53.198.74
+  210  ls -la
+  211  nano shiftline.sh.save
+  212  ./shifline.sh.save file2.txt
+  213  bash shiftline.sh.save
+  214  clear
+  215  ls -la
+  216  sudo chmod 700 shiftline.sh.save
+  217  bash shiftline.sh.save
+  218  ./shifline.sh.save file2.txt
+  219  nano shiftline.sh.save
+  220  ls -la
+  221  bash shiftline.sh
+  222  ./shiftline.sh file1.txt
+  223  sudo chmod 700 shiftline.sh 
+  224  ./shiftline.sh file1.txt
+  225  nano shiftline.sh.save
+  226  nano shiftline.sh
+  227  ./shiftline.sh file2.txt
+  228  nano shiftline.sh
+  229  ./shiftline.sh file2.txt file4.txt
+  230  cat file4.txt
+  231  nano shiftline.sh
+  232  cat file1.txt
+  233  wc file1.txt
+  234  echo "world" >> file1.txt
+  235  echo "my" >> file1.txt
+  236  echo "name" >> file1.txt
+  237  echo "is" >> file1.txt
+  238  echo "Mohan" >> file1.txt
+  239  wc -l file1.txt
+  240  nano shiftline.sh
+  241  ./shiftline.sh file1.txt file4.txt
+  242  nano shiftline.sh
+  243  ./shiftline.sh file1.txt file4.txt
+  244  nano shiftline.sh
+  245  ./shiftline.sh file1.txt file4.txt
+  246  nano shiftline.sh
+  247  ./shiftline.sh file1.txt file4.txt
+  248  nano shiftline.sh
+  249  ./shiftline.sh file1.txt file4.txt
+  250  clear
+  251  nano shiftline.sh
+  252  ./shiftline.sh file1.txt file4.txt
+  253  nano shiftline.sh
+  254  ./shiftline.sh file1.txt file4.txt 9
+  255  nano shiftline.sh
+  256  ./shiftline.sh file1.txt file4.txt 9
+  257  nano shiftline.sh
+  258  ./shiftline.sh file1.txt file4.txt 9
+  259  nano shiftline.sh
+  260  ./shiftline.sh file1.txt file4.txt 9
+  261  nano shiftline.sh
+  262  ./shiftline.sh file1.txt file4.txt 9
+  263  cat file4.txt
+  264  cat file1.txt
+  265  ./shiftline.sh file1.txt file4.txt 1
+  266  cat file4.txt
+  267  ls -la
+  268  nano shiftline.sh
+  269  ps aux
+  270  clear
+  271  ps -l
+  272  ps aux
+  273  history
+  274  nano shiftline.sh
+  275  clear
+  276  cat file1.txt
+  277  ./shiftline.sh file1.txt file4.txt 3
+  278  cat file4.txt
+  279  sudo su
+  280  mkdir git_connection
+  281  cd git_connection
+  282  git clone https://github.com/mohan-polunati-1377/cron_job_linux.git
+  283  ls -la
+  284  git status
+  285  cd cron_job_linux
+  286  git status
+  287  touch system_status.sh
+  288  nano system_status.sh
+  289  ls -la
+  290  cd .git
+  291  ls -la
+  292  cd..
+  293  cd ..
+  294  nano system_status.sh
+  295  chmod 700 system_status.sh
+  296  crontab -e
+  297  ls -la
+  298  cat system_20250808_1245
+  299  cat system_20250808_1245.log
+  300  cat history_20250808_1245.log
+  301  git status
+  302  git add cron.log
+  303  git add system_status.sh
+  304  git commit
+  305  git config 
+  306  git config --global user.email "mohansreekar.polunati@bizacuity.com"
+  307  git commit
+  308  git config user.name "Mohan Sreekar"
+  309  git config user.email "mohansreekar.polunati@bizacuity.com"
+  310  git config user.name "Mohan Sreekar"
+  311  git commit -m
+  312  git commit
+  313  git push -u origin main
+  314  git push -u origin master
+  315  clear
+  316  ssh-keygen -t ed25519 -C "mohansreekar.polunati@bizacuity.com"
+  317  cat ~/.ssh/id_ed25519.pub
+  318  git remote set-url origin git@github.com:mohan-polunati-1377/cron_job_linux.git
+  319  git push -u origin master
+  320  clear
+  321  nano system_status.sh
+  322  git add system_status.sh
+  323  git commit
+  324  nano system_status.sh
+  325  nano ~/.bashrc
+  326  export PROMPT_COMMAND='history -a'
+  327  nano ~/.bashrc
+  328  source ~/.bashrc
+  329  nano system_status.sh
+  330  crontab -e
+  331  clear
+  332  cd
+  333  ls
+  334  ||
+  335  ll
+  336  df -ah
+  337  ssh ec2-user@51.21.247.211
+  338  ls -la
+  339  cd desktop
+  340  ls -la
+  341  cat vi_editor.txt
+  342  vi vi_editor
+  343  cd desktop
+  344  vi vi_editor.txt
+  345  cp /mnt/c/Users/desktop/vi_editor.txt ~
+  346  cd desktop
+  347  cp /mnt/c/Users/desktop/vi_editor.txt ~
+  348  cp vi_editor.txt ~
+  349  ls -la
+  350  vi vi_editor.txt
+  351  exit
+  352  cd desktop
+  353  ls -la
+  354  cp vi_assignment.csv ~
+  355  exit
+  356  ls -la
+  357  clear
+  358  vi vi_assignment.csv
+  359  crontab -e
+  360  vi vi_assignment.csv
+  361  vi vi_assignment.txt
+  362  ls -la
+  363  vi vi_editor.txt
+  364  vim vi_editor.txt
+  365  vim --version | head
+  366  sudo update vi
+  367  sudo apt update
+  368  sudo apt install vim
+  369  vim --version | head
+  370  vim vi_editor.txt
+  371  vim vi_assignment.txt
+  372  nano vi_assignment.txt
+  373  ls -la
+  374  cat vi_assignment.txt
+  375  nano vi_assignment.txt
+  376  chmod +x vi_assignment.sh
+  377  ./update_orders.sh
+  378  ./vi_assignment.sh
+  379  cat vi_assignment.txt
+  380  ls -la
+  381  cat orders_updated.csv
+  382  vim vi_assignment.txt
+  383  vim vi_editor.txt
+  384  ls -la
+  385  cd git_connection
+  386  ls -la
+  387  nano cron_job_linux
+  388  cd cron_job_linux
+  389  ls -la
+  390  nano system_status.sh
+  391  top -b
+  392  nano system_status.sh
+  393  cd git_connection
+  394  exit
+  395  ls -la
+  396  cd dowloads
+  397  cd downloads
+  398  ls -la
+  399  cp sreekar.pem ~
+  400  exit
+  401  ls -la
+  402  ssh -i sreekar.pem ec2-user@34.207.238.16
+  403  sudo chmod 400 sreekar.pem
+  404  ssh -i sreekar.pem ec2-user@34.207.238.16
+  405  cd .ssh
+  406  ls -la
+  407  cat yes.pub
+  408  cd
+  409  ssh -i sreekar.pem ec2-user@34.207.238.16
+  410  ssh ec2-user@34.207.238.16
+  411  ssh -i sreekar.pem ec2-user@54.158.138.31
+  412  yes.pud
+  413  cd .ssh
+  414  yes.pub
+  415  cat yes.pub
+  416  cd
+  417  ssh -i sreekar.pem ec2-user@54.158.138.31
+  418  ssh ec2-user@54.158.138.31
+  419  nano system_status.sh
+  420  ls -la
+  421  cd git_connection
+  422  ls -la
+  423  cd cron_job_linux
+  424  ls -la
+  425  nano system_status.sh
+  426  cd
+  427  ssh ec2-user@54.158.138.31
+  428  ssh ec2-user@35.153.206.181
+  429  exit
+  430  ssh ec2-user@35.153.206.181
+  431  ssh ec2-user@184.72.152.134
+  432  ssh ec2-user@13.60.90.242
+  433  ls -la
+  434  ssh -i SREEKAR09.pem ec2-user@13.60.90.242
+  435  cat yes.pub
+  436  ssh -i SREEKAR09.pem ec2-user@13.60.90.242
+  437  ssh ec2_user@13.60.90.242
+  438  ssh ec2-user@13.60.90.242
+  439  history
+  440  ls -la
+  441  ssh -i sreekar.pem ec2-user@54.158.138.31
+  442  pscp -i C:\keys\SREEKAR09.pem ec2-user@13.60.90.242:/home/ec2-user/test.txt C:\Users\Sreekar\Downloads\
+  443  pscp -i C:\keys\SREEKAR09.pem ec2-user@13.60.90.242:/home/ec2-user/test.txt C:\Users\Sreekar\Downloads
+  444  sudo apt install putty-tools
+  445  pscp -i C:\keys\SREEKAR09.pem ec2-user@13.60.90.242:/home/ec2-user/test.txt C:\Users\Sreekar\Downloads
+  446  scp -i ~/Downloads/SREEKAR09.pem test.txt ec2-user@13.60.90.242:/home/ec2-user/
+  447  scp -i ~/Downloads/SREEKAR09.pem test.txt ec2-user@13.60.90.242:/home/ec2-user
+  448  ssh ec2-user@13.60.90.242
+  449  ssh ec2-user@51.21.245.61
+  450  cat ~/.ssh/yes.pub
+  451  ssh -i ec2-user@13.53.127.255
+  452  ssh -i SREEKAR09.pem ec2-user@13.53.127.255
+  453  ssh ec2-user@13.53.127.255
+  454  ssh ec2-user@51.20.182.147
+  455  ssh -i SREEKAR09.pem ec2-user@51.20.182.147
+  456  cat /.ssh/yes.pub
+  457  cd .ssh
+  458  cat yes.pub
+  459  cd
+  460  ssh -i SREEKAR09.pem ec2-user@13.60.41.248
+  461  vi file1.txt
+  462  ls -la
+  463  cd .ssh
+  464  cd
+  465  mkdir example
+  466  mkdir example1
+  467  rmdir example1
+  468  ssh ec2-user@13.60.41.248
+  469  sudo su - oracle
+  470  ssh ec2-user@13.60.41.248
+  471  ssh ec2-user@13.60.166.18
+  472  clear
+  473  touch file5.txt
+  474  chmod file5.txt
+  475  chmod 777 file5.txt
+  476  sed file1.txt
+  477  Example commandWhat it does
+  478  sed 's/hi/bar/' file1.txt
+  479  sed 's/hello/bar/' file1.txt
+  480  free -g
+  481  du -h
+  482  df -ah
+  483  top
+  484  uname -a
+  485  hostname
+  486  clear
+  487  zip myfiles.zip file4.txt file3.txt
+  488  sudo apt install zip
+  489  zip myfiles.zip file4.txt file3.txt
+  490  gzip file5.txt
+  491  gunzip file5.txt.gz
+  492  tar -cvf archive.tar file2 dir/
+  493  tar -cvf archive.tar file2
+  494  tar -cvf archive.tar file5
+  495  sudo yum install nano
+  496  ls
+  497  ssh ec2-user@13.60.166.18
+  498  autossh
+  499  ping
+  500  ping google.com
+  501  telnet
+  502  telnet google.com 80
+  503  tunnel -help
+  504  nslookup
+  505  ssh ec2-user@13.60.166.18
+  506  ifconfig
+  507  awk '{print $1, $3}' file.txt
+  508  awk '{print $1}' file1.txt
+  509  ps -ef
+  510  less file1.txt
+  511  tail file1.txt
+  512  tail -n 4 file1.txt
+  513  head -n 4 file1.txt
+  514  wc help
+  515  wc -help
+  516  wc --help
+  517  wc file1.txt
+  518  crontab -l
+  519  grep --help
+  520  grep -f 'hel' file1.txt
+  521  grep 'hel' file1.txt
+  522  find / -name "file1.txt" 2>/dev/null
+  523  find / -iname "file1.txt" 2>/dev/null
+  524  find ~/ -iname "file1.txt" 2>/dev/null
+  525  find ~/ -ls
+  526  clear
+  527  find ~ -type f -empty
+  528  find ~/ -maxdepth 2 
+  529  ~/.profile
+  530  sudo ~/.profile
+  531  makefile
+  532  makefile --help
+  533  mount --help
+  534  sudo mount /dev/sdb1 /mnt/usb
+  535  kill
+  536  echo file1.txt
+  537  free -h
+  538  df -ah
+  539  du -h
+  540  clear
+  541  cd ..
+  542  cd../..
+  543  cat file1.txt
+  544  cd
+  545  cat file1.txt
+  546  ls -lrt
+  547  clear
+  548  locate file1.txt
+  549  cd/
+  550  cd /
+  551  ssh ec2-user@13.60.166.18
+  552  clear
+  553  find / -name "file1.txt" 2>/dev/null
+  554  find ~/ -name "file1.txt" 2>/dev/null
+  555  find / -iname "file*" 2>/dev/null
+  556  find ~/ -iname "file*" 2>/dev/null
+  557  find ~/ -ls
+  558  clear
+  559  find ~/Documents -ls
+  560  ls -la
+  561  find ~/git_connection -ls
+  562  clear
+  563  find ~/ -iname "*txt" -exec grep -My {} \;
+  564  find ~/ -iname "*txt" -exec grep -Hi hello {} \;
+  565  find ~ -type f
+  566  find ~ -type f -empty
+  567  find ~/ -iname ".txt" -mtime -7
+  568  find ~/ -iname ".txt" -mtime -5
+  569  find ~/ -iname ".txt"
+  570  find ~/ -iname ".txt" -mtime -5 2>/dev/null
+  571  find ~/ -iname ".txt" 2>/dev/null
+  572  find ~/ -iname "*.txt" -mtime -5 2>/dev/null
+  573  clear
+  574  history
+  575  find ~/ -iname "*txt" -mtime -5 2>/dev/null
+  576  find ~/ -iname "*txt" -mtime -10 2>/dev/null
+  577  find ~/ -iname "*txt" -mtime -10 -exec ls -la 2>/dev/null
+  578  find ~/ -iname "*txt" -mtime -10 -exec ls -la {} \; 2>/dev/null
+  579  find ~/ -iname "*txt" -mtime -20 -exec ls -la {} \; 2>/dev/null
+  580  man find
+  581  man find | grep mtime
+  582  man find | grep -mtime
+  583  man find | grep "-mtime"
+  584  man find
+  585  man find | grep modified
+  586  find -h
+  587  find --help | grep modified
+  588  find --help | grep mtime
+  589  find --help
+  590  find ~/ -iname "*txt" -mtime +20 -exec ls -la {} \; 2>/dev/null
+  591  find ~/ -iname "*txt" -mtime +10 -exec ls -la {} \; 2>/dev/null
+  592  find ~/ -iname "*txt" -mtime -10 -exec ls -la {} \; 2>/dev/null
+  593  ls -la
+  594  vi vi_editor.txt
+  595  clear
+  596  sudo yum install msmtp mailx -y
+  597  install yum
+  598  sudo install yum
+  599  sudo yum update
+  600  ssh ec2-user@51.21.162.212
+  601  ssh ec2-user@13.51.56.242
+  602  ssh -i SREEKAR09.pem ec2-user@16.170.215.133
+  603  cd .ssh
+  604  cat yes.pub
+  605  cs
+  606  cd
+  607  ssh -i SREEKAR09.pem ec2-user@16.170.215.133
+  608  cd
+  609  ssh -i SREEKAR09.pem ec2-user@16.170.215.133
+  610  sudo chmod 400 SREEKAR.pem
+  611  ls -la
+  612  sudo chmod 400 SREEKAR09.pem
+  613  ssh -i SREEKAR09.pem ec2-user@16.170.215.133
+  614  sudo chmod 770 SREEKAR09.pem
+  615  ssh -i SREEKAR09.pem ec2-user@16.170.215.133
+  616  sudo chmod 700 SREEKAR09.pem
+  617  ssh -i SREEKAR09.pem ec2-user@16.170.215.133
+  618  sudo chmod 740 SREEKAR09.pem
+  619  ssh -i SREEKAR09.pem ec2-user@16.170.215.133
+  620  sudo chmod 440 SREEKAR09.pem
+  621  ssh -i SREEKAR09.pem ec2-user@16.170.215.133
+  622  sudo chmod 400 SREEKAR09.pem
+  623  ssh -i SREEKAR09.pem ec2-user@16.170.215.133
+  624  sudo chmod 700 SREEKAR09.pem
+  625  ssh -i SREEKAR09.pem ec2-user@16.170.215.133
+  626  cat yes.pub
+  627  ssh -i SREEKAR09.pem ec2-user@13.60.252.213
+  628  ssh ec2-user@13.60.252.213
+  629  history
+  630  clear
+  631  ssh ec2-user@13.60.252.213
+  632  sudo yum update
+  633  sudo apt update
+  634  sudo yum update
+  635  sudo install yum
+  636  install --help
+  637  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
+  638  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+  639  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  640  sudo apt-get update && sudo apt-get install terraform -y
+  641  wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+  642  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+  643  sudo apt update && sudo apt install terraform
+  644  wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+  645  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+  646  sudo apt update && sudo apt install terraform
+  647  snap install terraform
+  648  sudo snap install terraform
+  649  sudo snap install terraform --classic
+  650  terraform
+  651  terraform -version
+  652  sudo yum
+  653  install yum 
+  654  grep -r "hashicorp" /etc/apt/sources.list /etc/apt/sources.list.d/
+  655  sudo nano /etc/apt/sources.list
+  656  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+  657  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  658  sudo apt-get update
+  659  sudo apt-get install terraform -y
+  660  sudo snap refresh terraform
+  661  exit
+  662  exit
+  663  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  664  unzip awscliv2.zip
+  665  sudo ./aws/install/mnt/c/Users/mohansreekar.p
+  666  sudo ./aws/install
+  667  aws -version
+  668  aws --version
+  669  wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+  670  terraform -version
+  671  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  672  unzip awscliv2.zip
+  673  sudo ./aws/install
+  674  aws --version
+  675  terraform -version
+  676  aws configure
+  677  aws ec2 describe-instances --query "Reservations[*].Instances[*].InstanceId" --output table
+  678  aws ec2 start-instances --instance-ids i-0ecba2d9b9480d497
+  679  aws ec2 stop-instances --instance-ids i-0ecba2d9b9480d497
+  680  aws configure
+  681  terraform -version
+  682  vi main.tf
+  683  cat main.tf
+  684  terraform plan
+  685  terraform init
+  686  terraform plan
+  687  vi main.tf
+  688  nano main.tf
+  689  terraform init
+  690  terraform plan
+  691  nano main.tf
+  692  terraform init
+  693  nano main.tf
+  694  terraform init
+  695  terraform plan
+  696  nano main.tf
+  697  terraform init
+  698  terraform plan
+  699  terraform apply
+  700  terraform ls
+  701  ls
+  702  aws ls
+  703  s3 ls
+  704  aws s3 ls
+  705  ls *.tf
+  706  nano main.tf
+  707  terraform destroy
+  708  terraform show
+  709  terraform init
+  710  terraform plan
+  711  ls -la
+  712  nano main.tf
+  713  terraform init
+  714  terraform plan
+  715  terraform import aws_instance.mohan_aws i-0ecba2d9b9480d497
+  716  terraform show
+  717  nano main.tf
+  718  nano alarm.tf
+  719  terraform init
+  720  terraform plan
+  721  nano alarm.tf
+  722  terraform plan
+  723  terraform import aws_cloudwatch_metric_alarm.cpu_utilization cpu_utilization
+  724  terraform show
+  725  nano alarm.tf
+  726  terraform apply
+  727  exit
+  728  cd --help
+  729  man find
+  730  man pwd
+  731  man vim
+  732  info vim
+  733  ls -la
+  734  vim vi_assignment.txt
+  735  vim vi_assignment.csv
+  736  man find
+  737  history
+  738  vim vi_assignment.csv
+  739  ls -la
+  740  cd downloads
+  741  ls -la
+  742  cp sreekar.pem ~/
+  743  sudo chmod 777
+  744  sudo chmod 777 sreekar.pem
+  745  cp sreekar.pem ~/
+  746  cp SREEKAR09.pem ~/
+  747  exit
+  748  mkdir example
+  749  mkdir example3
+  750  rmdir example3
+  751  sed file2.txt
+  752  cat file2.txt
+  753  cat file1.txt
+  754  sed 's/my/hi' file1.txt
+  755  sed 's/my/hi/' file1.txt
+  756  sed 's/hi/my/' file1.txt
+  757  sed '2aHi' file1.txt
+  758  free -h
+  759  Du -h
+  760  du -h
+  761  clear
+  762  top
+  763  clear
+  764  uname -a
+  765  zip myfile.zip file4.txt file5.txt
+  766  gzip myfile.zip
+  767  gunzip myfile.zip.gz
+  768  unzip myfile.zip
+  769  -wc
+  770  wc -l file1.txt
+  771  wc -w file1.txt
+  772  wc file1.txt
+  773  wc -c file1.txt
+  774  grep 'hel' file1.txt
+
+===== CPU & RAM USAGE on Mon Sep 15 15:00:01 IST 2025 =====
+top - 15:00:01 up  3:23,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  43 total,   1 running,  42 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7812.2 total,   7094.6 free,    380.0 used,    337.7 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7270.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  171348  11992   8024 S   0.0   0.1   0:00.82 systemd
+      2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.00 init-sy+
+      6 root      20   0    3088   2024   1792 S   0.0   0.0   0:00.00 init
+     61 root      19  -1   52148  14336  13568 S   0.0   0.2   0:00.22 systemd+
+     82 root      20   0   23332   5760   3968 S   0.0   0.1   0:00.25 systemd+
+     90 systemd+  20   0   19088   7296   6528 S   0.0   0.1   0:00.07 systemd+
+    273 root      20   0  594464   7884   1408 S   0.0   0.1   0:00.16 snapfuse
+    274 root      20   0   85588   1408   1280 S   0.0   0.0   0:00.00 snapfuse
+    281 root      20   0  151256   1408   1280 S   0.0   0.0   0:00.00 snapfuse
+    287 root      20   0   85588   1280   1152 S   0.0   0.0   0:00.00 snapfuse
+    292 root      20   0  151256   1280   1152 S   0.0   0.0   0:00.00 snapfuse
+    298 root      20   0   85588   1280   1152 S   0.0   0.0   0:00.00 snapfuse
+    304 root      20   0  667520  14176   1408 S   0.0   0.2   0:03.04 snapfuse
